@@ -1,7 +1,7 @@
 # Colors
-API that serve colors from provide json file.
+API that serves colors from provided json file.
 
-## Requiements
+## Requirements
 - podman
 - tox
 - curl
@@ -33,20 +33,19 @@ Post color
 curl -X POST http://localhost:5000/pink -d "#FFC0CB"
 ```
 
-## How to run tests
-Tox instll dependency and run pytest and black 
+with ## How to run tests
+Tox install dependency and run pytest and black 
 ```bash
 tox
 ```
 
-## Asummptions
-- Use file to persitance data 
-- File loaded as volume to container
+## Assumptions
+- Use file to persistence data 
+- File loaded as volume to a container
 - Use python 3.8
-- Respone json
+- Response  with json
 - Post with data
 - Post can overwrite
 
-## What can be improve
-- use database instead file
-- 
+## What can be improved
+- use database instead of file
